@@ -1,0 +1,44 @@
+{
+    "version": 2,
+    "title": "Blue",
+    "settings": {
+        "color": {
+            "palette": [
+                {
+                    "slug": "contrast",
+                    "color": "#FCF5ED",
+                    "name": "Contrast"
+                },
+                {
+                    "slug": "base",
+                    "color": "#3F67C6",
+                    "name": "Base"
+                },
+                {
+                    "slug": "primary",
+                    "color": "#FFFFFF",
+                    "name": "Primary"
+                },
+                {
+                    "slug": "secondary",
+                    "color": "#3556A5",
+                    "name": "Secondary"
+                },
+                {
+                    "slug": "tertiary",
+                    "color": "#374C80",
+                    "name": "Tertiary"
+                }
+            ]
+        }
+    },
+    "styles": {
+        "blocks": {
+            "core/paragraph": {
+                "color": {
+                    "text": "var(--wp--preset--color--base)"
+                }
+            }
+        }
+    }
+}

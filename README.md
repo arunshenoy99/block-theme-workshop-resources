@@ -49,21 +49,26 @@
     - Create a new file in the parts directory and name it `<your_template_part>.html`
     - Add the necessary block grammar.
     - Use the template part in your templates by using the block grammar `<!-- wp:template-part {"slug":"<your_template_part>","tagName":"<your_template_part>"} /-->`
-12. Take a look at the core blocks of WordPress. If you can achieve your design using just the core blocks then you are basically done, you go into the editor, play around with all the blocks and styles and export your theme.
-13. The questions you need to ask yourself are
+12. Setting up global styles variations
+    - Create a new directory and name it `styles`.
+    - Create a new file and name it with a kebab cased version of your variation title.
+    - Add the necessary JSON and ensure that you use a unique title to avoid confusion.
+    - This new variation will now be available in your site editor.
+13. Add your screenshot
+    - Take a screenshot of your theme that will be displayed in the Themes section of WordPress.
+    - Rename the file to `screenshot.<png|gif|jpg>` and place this file at the root of your theme directory.
+    - The dimensions of your screenshot should be 1200 x 900 pixels.
+14. Take a look at the core blocks of WordPress. If you can achieve your design using just the core blocks then you are basically done, you go into the editor, play around with all the blocks and styles and export your theme.
+15. The questions you need to ask yourself are
     - Can I achieve the necessary design by modifying the core blocks with my own custom CSS?
     - Can I achieve the necessary design by editing an already existing theme and export it?
     - Can I achieve the necessary design by creating child theme of an existing theme?
     - On a high level, the question you should be asking is, can I achieve the necessary design by just using the core blocks?
-14. Nuances with using only core blocks 
+16. Nuances with using only core blocks 
     - Core Blocks can quickly become limited to your client's ever increasing requirements.
     - Core Styles are also limited, you might want to use SASS/Bootstrap.
     - You need complex queries that the query loop block cannot support.
-    - Separation of data and design.
-15. Add your screenshot
-    - Take a screenshot of your theme that will be displayed in the Themes section of WordPress.
-    - Rename the file to `screenshot.<png|gif|jpg>` and place this file at the root of your theme directory.
-    - The dimensions of your screenshot should be 1200 x 900 pixels.
+    - [Separation of data and design](https://wordpress.org/documentation/article/comparing-patterns-template-parts-and-reusable-blocks/)
 
 ## Achieving complex designs with custom dynamic blocks
 1. Create a new directory in your theme folder and name it `blocks`. The name is really up-to you and does not matter. This directory should house all your custom blocks.
