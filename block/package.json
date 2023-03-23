@@ -1,0 +1,15 @@
+{
+  "name": "block",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "wp-scripts start blocks/navbar/navbar.js blocks/slide/slide.js blocks/slideshow/slideshow.js blocks/static/static.js"
+  },
+  "dependencies": {
+    "@wordpress/scripts": "*"
+  },
+  "author": "",
+  "license": "ISC"
+}

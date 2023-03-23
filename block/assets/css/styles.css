@@ -1,0 +1,16 @@
+
+  .navbar-dark {
+    background-color:  var(--wp--preset--color--primary);
+  }
+
+  .nav-link, .navbar-brand {
+    text-decoration: none;
+  }
+
+  .carousel .carousel-item {
+    height: 400px; }
+  .row-content {
+    margin: 0px auto;
+    padding: 50px 0px;
+    min-height: 250px;
+  }
